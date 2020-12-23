@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "vendedores_soals",
+  "info": {
+    "name": "vendedoresSoal"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    }
+  }
+}

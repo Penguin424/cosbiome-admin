@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "seguimientoscosbiomes",
+  "info": {
+    "name": "seguimientoscosbiome",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nombreProspecto": {
+      "type": "string"
+    },
+    "numeroTelefono": {
+      "type": "integer"
+    },
+    "nota": {
+      "type": "text"
+    },
+    "atendiendo": {
+      "type": "string"
+    },
+    "fechaMarcar": {
+      "type": "string"
+    }
+  }
+}

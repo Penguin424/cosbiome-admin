@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "reportesventasdiarias",
+  "info": {
+    "name": "reportesventasdiarias"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "fecha": {
+      "type": "string"
+    },
+    "horaDeCierreDeCaja": {
+      "type": "string"
+    },
+    "productosVendidos": {
+      "type": "json"
+    },
+    "total": {
+      "type": "biginteger"
+    },
+    "vendedores": {
+      "type": "json"
+    }
+  }
+}

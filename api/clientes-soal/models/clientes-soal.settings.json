@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "clientes_soals",
+  "info": {
+    "name": "clientesSoal",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "direcciones": {
+      "type": "json"
+    },
+    "idCliente": {
+      "type": "string"
+    },
+    "nombreCliente": {
+      "type": "string"
+    },
+    "numTelefono": {
+      "type": "json"
+    },
+    "numTelefono1": {
+      "type": "string"
+    },
+    "pedidos": {
+      "type": "json"
+    },
+    "ultimoPedido": {
+      "type": "json"
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/clientes-soals",
+      "handler": "clientes-soal.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/clientes-soals/count",
+      "handler": "clientes-soal.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/clientes-soals/:id",
+      "handler": "clientes-soal.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/clientes-soals",
+      "handler": "clientes-soal.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/clientes-soals/:id",
+      "handler": "clientes-soal.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/clientes-soals/:id",
+      "handler": "clientes-soal.delete",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/clientes-find-nombre/:id",
+      "handler": "clientes-soal.findName",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/clientes-find-numtel/:id",
+      "handler": "clientes-soal.findNumTel",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

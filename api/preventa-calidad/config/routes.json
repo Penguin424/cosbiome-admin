@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/preventa-calidads",
+      "handler": "preventa-calidad.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/preventa-calidads/count",
+      "handler": "preventa-calidad.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/preventa-calidads/:id",
+      "handler": "preventa-calidad.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/preventa-calidads",
+      "handler": "preventa-calidad.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/preventa-calidads/:id",
+      "handler": "preventa-calidad.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/preventa-calidads/:id",
+      "handler": "preventa-calidad.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

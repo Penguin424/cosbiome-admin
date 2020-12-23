@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/confirmacionescrms",
+      "handler": "confirmacionescrm.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/confirmacionescrms/count",
+      "handler": "confirmacionescrm.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/confirmacionescrms/:id",
+      "handler": "confirmacionescrm.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/confirmacionescrms",
+      "handler": "confirmacionescrm.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/confirmacionescrms/:id",
+      "handler": "confirmacionescrm.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/confirmacionescrms/:id",
+      "handler": "confirmacionescrm.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

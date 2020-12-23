@@ -1,0 +1,60 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/colonias-repartidores",
+      "handler": "colonias-repartidores.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/colonias-repartidores/count",
+      "handler": "colonias-repartidores.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/colonias-repartidores/:id",
+      "handler": "colonias-repartidores.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/colonias-repartidores",
+      "handler": "colonias-repartidores.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/colonias-repartidores/:id",
+      "handler": "colonias-repartidores.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/colonias-repartidores/:id",
+      "handler": "colonias-repartidores.delete",
+      "config": {
+        "policies": []
+      }
+    }, 
+    {
+      "method": "GET",
+      "path": "/colonias-repartidores-scol/:id",
+      "handler": "colonias-repartidores.findOneColonia",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

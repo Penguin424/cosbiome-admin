@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "rutas",
+  "info": {
+    "name": "rutas"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "dineroRecaudado": {
+      "type": "biginteger"
+    },
+    "fecha": {
+      "type": "string"
+    },
+    "idRutaIn": {
+      "type": "string"
+    },
+    "porcentajeDinero": {
+      "type": "string"
+    },
+    "porcentajeEntrega": {
+      "type": "string"
+    },
+    "totalEntregados": {
+      "type": "integer"
+    },
+    "totalNoEntregados": {
+      "type": "integer"
+    },
+    "totalPedidos": {
+      "type": "integer"
+    },
+    "totalRecaudado": {
+      "type": "integer"
+    },
+    "repartidores": {
+      "type": "json"
+    }
+  }
+}

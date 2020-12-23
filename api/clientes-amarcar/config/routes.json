@@ -1,0 +1,60 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/clientes-amarcars",
+      "handler": "clientes-amarcar.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/clientes-amarcars/count",
+      "handler": "clientes-amarcar.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/clientes-amarcars/:id",
+      "handler": "clientes-amarcar.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/clientes-amarcars",
+      "handler": "clientes-amarcar.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/clientes-amarcars/:id",
+      "handler": "clientes-amarcar.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/clientes-amarcars/:id",
+      "handler": "clientes-amarcar.delete",
+      "config": {
+        "policies": []
+      }
+    },  
+    {
+      "method": "GET",
+      "path": "/clientes-amarcars-findNombre/:id",
+      "handler": "clientes-amarcar.findClientVend",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

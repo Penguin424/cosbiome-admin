@@ -1,0 +1,97 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pedidos_rutas",
+  "info": {
+    "name": "pedidosRuta",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "a": {
+      "type": "string"
+    },
+    "calidadEcha": {
+      "type": "string"
+    },
+    "ciudad": {
+      "type": "string"
+    },
+    "codigoPostal": {
+      "type": "string"
+    },
+    "colonia": {
+      "type": "string"
+    },
+    "cruces": {
+      "type": "string"
+    },
+    "de": {
+      "type": "string"
+    },
+    "domicilio": {
+      "type": "string"
+    },
+    "esperaRuta": {
+      "type": "boolean"
+    },
+    "estadoProv": {
+      "type": "string"
+    },
+    "fechaEntrega": {
+      "type": "string"
+    },
+    "formaDePago": {
+      "type": "string"
+    },
+    "idCliente": {
+      "type": "string"
+    },
+    "idPedido": {
+      "type": "string"
+    },
+    "nombreCliente": {
+      "type": "string"
+    },
+    "nota": {
+      "type": "string"
+    },
+    "numTel": {
+      "type": "string"
+    },
+    "repartidor": {
+      "type": "string"
+    },
+    "subTotal": {
+      "type": "string"
+    },
+    "tipo": {
+      "type": "string"
+    },
+    "total": {
+      "type": "string"
+    },
+    "vendedor": {
+      "type": "string"
+    },
+    "producto": {
+      "type": "json"
+    },
+    "firmaCliente": {
+      "type": "string"
+    },
+    "estatusPedido": {
+      "type": "string"
+    },
+    "fechaDeventa": {
+      "type": "string"
+    },
+    "historial": {
+      "type": "text",
+      "default": "HISTORIAL"
+    }
+  }
+}

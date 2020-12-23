@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "confirmacionescrms",
+  "info": {
+    "name": "confirmacionescrm",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "idCliente": {
+      "type": "string"
+    },
+    "calificadoPor": {
+      "type": "string"
+    },
+    "numTel": {
+      "type": "string"
+    },
+    "statusCliente": {
+      "type": "string"
+    },
+    "nombreCliente": {
+      "type": "string"
+    },
+    "fecha": {
+      "type": "string"
+    }
+  }
+}

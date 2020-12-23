@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/cosbiomealmacensalidas",
+      "handler": "cosbiomealmacensalidas.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/cosbiomealmacensalidas/count",
+      "handler": "cosbiomealmacensalidas.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/cosbiomealmacensalidas/:id",
+      "handler": "cosbiomealmacensalidas.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/cosbiomealmacensalidas",
+      "handler": "cosbiomealmacensalidas.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/cosbiomealmacensalidas/:id",
+      "handler": "cosbiomealmacensalidas.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/cosbiomealmacensalidas/:id",
+      "handler": "cosbiomealmacensalidas.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "reportes_ventas",
+  "info": {
+    "name": "reportesVentas",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "noVenta": {
+      "type": "biginteger"
+    },
+    "porVenta": {
+      "type": "string"
+    },
+    "promesa": {
+      "type": "biginteger"
+    },
+    "totalEntradas": {
+      "type": "biginteger"
+    },
+    "totalReacudado": {
+      "type": "biginteger"
+    },
+    "vendedores": {
+      "type": "json"
+    },
+    "venta": {
+      "type": "biginteger"
+    },
+    "fecha": {
+      "type": "string"
+    },
+    "fechaDeCreacion": {
+      "type": "date"
+    }
+  }
+}

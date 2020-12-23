@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/repartidores",
+      "handler": "repartidores.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/repartidores/count",
+      "handler": "repartidores.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/repartidores/:id",
+      "handler": "repartidores.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/repartidores",
+      "handler": "repartidores.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/repartidores/:id",
+      "handler": "repartidores.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/repartidores/:id",
+      "handler": "repartidores.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

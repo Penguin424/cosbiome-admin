@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "productos",
+  "info": {
+    "name": "productos"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "cantidadProducto": {
+      "type": "biginteger"
+    },
+    "codigoProducto": {
+      "type": "string"
+    },
+    "conteo": {
+      "type": "json"
+    },
+    "descuentoAplicado": {
+      "type": "string"
+    },
+    "enPromo": {
+      "type": "boolean"
+    },
+    "nombreProducto": {
+      "type": "string"
+    },
+    "precioProducto": {
+      "type": "biginteger"
+    },
+    "precioVenta": {
+      "type": "biginteger"
+    },
+    "productoApartado": {
+      "type": "biginteger"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/vendedorescosbiomes",
+      "handler": "vendedorescosbiome.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/vendedorescosbiomes/count",
+      "handler": "vendedorescosbiome.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/vendedorescosbiomes/:id",
+      "handler": "vendedorescosbiome.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/vendedorescosbiomes",
+      "handler": "vendedorescosbiome.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/vendedorescosbiomes/:id",
+      "handler": "vendedorescosbiome.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/vendedorescosbiomes/:id",
+      "handler": "vendedorescosbiome.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

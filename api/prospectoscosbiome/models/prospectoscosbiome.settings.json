@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "prospectoscosbiomes",
+  "info": {
+    "name": "prospectoscosbiome",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nombreProspecto": {
+      "type": "string"
+    },
+    "entradaProspecto": {
+      "type": "enumeration",
+      "enum": [
+        "facebook",
+        "instagram",
+        "llamada",
+        "web"
+      ]
+    },
+    "nota": {
+      "type": "text"
+    },
+    "numeroTelefono": {
+      "type": "integer"
+    },
+    "en": {
+      "type": "string",
+      "default": "base"
+    },
+    "interes": {
+      "type": "enumeration",
+      "enum": [
+        "CURSO",
+        "CARRERA",
+        "COSMETOLOGIA",
+        "COSMEATRIA",
+        "MAQUINAS",
+        "PRODUCTO"
+      ],
+      "default": "MAQUINAS"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cosbiomecrmrepos",
+  "info": {
+    "name": "cosbiomecrmrepos",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "noContesta": {
+      "type": "integer",
+      "default": 0
+    },
+    "venta": {
+      "type": "integer",
+      "default": 0
+    },
+    "marcarOtroDia": {
+      "type": "integer",
+      "default": 0
+    },
+    "noVenta": {
+      "type": "integer",
+      "default": 0
+    },
+    "vendedores": {
+      "type": "json"
+    },
+    "fecha": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cosbiomealmacensalidas",
+  "info": {
+    "name": "cosbiomealmacensalidas"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "fecha": {
+      "type": "string"
+    },
+    "hora": {
+      "type": "string"
+    },
+    "motivo": {
+      "type": "text"
+    },
+    "total": {
+      "type": "biginteger"
+    },
+    "cantidad": {
+      "type": "integer"
+    }
+  }
+}

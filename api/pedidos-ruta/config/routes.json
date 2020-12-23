@@ -1,0 +1,60 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pedidos-rutas",
+      "handler": "pedidos-ruta.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pedidos-rutas/count",
+      "handler": "pedidos-ruta.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pedidos-rutas/:id",
+      "handler": "pedidos-ruta.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/pedidos-rutas",
+      "handler": "pedidos-ruta.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pedidos-rutas/:id",
+      "handler": "pedidos-ruta.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pedidos-rutas/:id",
+      "handler": "pedidos-ruta.delete",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pedidos-rutas-fecha-repartidor/:id",
+      "handler": "pedidos-ruta.fechaRepartidor",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "repartidores",
+  "info": {
+    "name": "repartidores"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "telefono": {
+      "type": "boolean"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/vendedores-soals",
+      "handler": "vendedores-soal.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/vendedores-soals/count",
+      "handler": "vendedores-soal.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/vendedores-soals/:id",
+      "handler": "vendedores-soal.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/vendedores-soals",
+      "handler": "vendedores-soal.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/vendedores-soals/:id",
+      "handler": "vendedores-soal.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/vendedores-soals/:id",
+      "handler": "vendedores-soal.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

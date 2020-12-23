@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/reportesventasdiariassoals",
+      "handler": "reportesventasdiariassoal.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/reportesventasdiariassoals/count",
+      "handler": "reportesventasdiariassoal.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/reportesventasdiariassoals/:id",
+      "handler": "reportesventasdiariassoal.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/reportesventasdiariassoals",
+      "handler": "reportesventasdiariassoal.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/reportesventasdiariassoals/:id",
+      "handler": "reportesventasdiariassoal.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/reportesventasdiariassoals/:id",
+      "handler": "reportesventasdiariassoal.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

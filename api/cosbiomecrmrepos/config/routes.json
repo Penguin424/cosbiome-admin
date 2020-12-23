@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/cosbiomecrmrepos",
+      "handler": "cosbiomecrmrepos.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/cosbiomecrmrepos/count",
+      "handler": "cosbiomecrmrepos.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/cosbiomecrmrepos/:id",
+      "handler": "cosbiomecrmrepos.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/cosbiomecrmrepos",
+      "handler": "cosbiomecrmrepos.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/cosbiomecrmrepos/:id",
+      "handler": "cosbiomecrmrepos.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/cosbiomecrmrepos/:id",
+      "handler": "cosbiomecrmrepos.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "kind": "collectionType",
+  "collectionName": "promesas",
+  "info": {
+    "name": "promesas"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "a": {
+      "type": "string"
+    },
+    "ciudad": {
+      "type": "string"
+    },
+    "codigoPostal": {
+      "type": "string"
+    },
+    "colonia": {
+      "type": "string"
+    },
+    "cruces": {
+      "type": "string"
+    },
+    "de": {
+      "type": "string"
+    },
+    "domicilio": {
+      "type": "string"
+    },
+    "envio": {
+      "type": "integer"
+    },
+    "estadoProv": {
+      "type": "string"
+    },
+    "fechaEntrega": {
+      "type": "string"
+    },
+    "formaDePago": {
+      "type": "string"
+    },
+    "idCliente": {
+      "type": "string"
+    },
+    "idMedio": {
+      "type": "string"
+    },
+    "nombreCliente": {
+      "type": "string"
+    },
+    "nota": {
+      "type": "string"
+    },
+    "numTel1": {
+      "type": "string"
+    },
+    "tipo": {
+      "type": "string"
+    },
+    "vendedor": {
+      "type": "string"
+    },
+    "producto": {
+      "type": "json"
+    },
+    "total": {
+      "type": "integer"
+    }
+  }
+}

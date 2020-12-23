@@ -1,0 +1,66 @@
+{
+  "kind": "collectionType",
+  "collectionName": "menciones",
+  "info": {
+    "name": "menciones",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "fechaMencion": {
+      "type": "string"
+    },
+    "ingresosEsperados": {
+      "type": "integer"
+    },
+    "noVenta": {
+      "type": "integer"
+    },
+    "porDinero": {
+      "type": "string"
+    },
+    "porVenta": {
+      "type": "string"
+    },
+    "productoMencion": {
+      "type": "string"
+    },
+    "promesa": {
+      "type": "integer"
+    },
+    "prospectosEsperados": {
+      "type": "integer"
+    },
+    "totalProspectos": {
+      "type": "integer"
+    },
+    "totalVendido": {
+      "type": "integer"
+    },
+    "venta": {
+      "type": "integer"
+    },
+    "vendedores": {
+      "type": "json"
+    },
+    "de": {
+      "type": "string"
+    },
+    "a": {
+      "type": "string"
+    },
+    "estacionMencion": {
+      "type": "string"
+    },
+    "dineroInvertido": {
+      "type": "integer"
+    },
+    "disponible": {
+      "type": "boolean"
+    }
+  }
+}

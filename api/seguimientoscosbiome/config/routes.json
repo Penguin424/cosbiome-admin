@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/seguimientoscosbiomes",
+      "handler": "seguimientoscosbiome.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/seguimientoscosbiomes/count",
+      "handler": "seguimientoscosbiome.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/seguimientoscosbiomes/:id",
+      "handler": "seguimientoscosbiome.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/seguimientoscosbiomes",
+      "handler": "seguimientoscosbiome.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/seguimientoscosbiomes/:id",
+      "handler": "seguimientoscosbiome.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/seguimientoscosbiomes/:id",
+      "handler": "seguimientoscosbiome.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

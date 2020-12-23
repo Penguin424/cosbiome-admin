@@ -1,0 +1,68 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/reportes-ventas",
+      "handler": "reportes-ventas.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/reportes-ventas/count",
+      "handler": "reportes-ventas.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/reportes-ventas/:id",
+      "handler": "reportes-ventas.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/reportes-ventas",
+      "handler": "reportes-ventas.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/reportes-ventas/:id",
+      "handler": "reportes-ventas.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/reportes-ventas/:id",
+      "handler": "reportes-ventas.delete",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/reportes-ventas-fecha/:id",
+      "handler": "reportes-ventas.findOneFech",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/reportes-ventas-fecha/:id",
+      "handler": "reportes-ventas.updateFech",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

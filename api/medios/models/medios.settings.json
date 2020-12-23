@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "medios",
+  "info": {
+    "name": "medios"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nombreMedio": {
+      "type": "string"
+    }
+  }
+}

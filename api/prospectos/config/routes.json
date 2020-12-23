@@ -1,0 +1,60 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/prospectos",
+      "handler": "prospectos.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/prospectos/count",
+      "handler": "prospectos.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/prospectos/:id",
+      "handler": "prospectos.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/prospectos",
+      "handler": "prospectos.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/prospectos/:id",
+      "handler": "prospectos.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/prospectos/:id",
+      "handler": "prospectos.delete",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/prospectos-vendedor/:id",
+      "handler": "prospectos.findForVendedor",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

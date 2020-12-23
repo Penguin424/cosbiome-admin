@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "vendedorescosbiomes",
+  "info": {
+    "name": "vendedorescosbiome"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nombreVendedor": {
+      "type": "string"
+    }
+  }
+}

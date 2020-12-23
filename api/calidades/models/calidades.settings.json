@@ -1,0 +1,84 @@
+{
+  "kind": "collectionType",
+  "collectionName": "calidades",
+  "info": {
+    "name": "calidades",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "a": {
+      "type": "string"
+    },
+    "ciudad": {
+      "type": "string"
+    },
+    "codigoPostal": {
+      "type": "string"
+    },
+    "cruces": {
+      "type": "string"
+    },
+    "de": {
+      "type": "string"
+    },
+    "domicilio": {
+      "type": "string"
+    },
+    "estadoProv": {
+      "type": "string"
+    },
+    "fechaDeventa": {
+      "type": "string"
+    },
+    "fechaEntrega": {
+      "type": "string"
+    },
+    "formaDePago": {
+      "type": "string"
+    },
+    "idCliente": {
+      "type": "string"
+    },
+    "idMedio": {
+      "type": "string"
+    },
+    "nombreCliente": {
+      "type": "string"
+    },
+    "nota": {
+      "type": "string"
+    },
+    "tipo": {
+      "type": "string"
+    },
+    "tipoTel1": {
+      "type": "string"
+    },
+    "tipoTel2": {
+      "type": "string"
+    },
+    "vendedor": {
+      "type": "string"
+    },
+    "numTel1": {
+      "type": "string"
+    },
+    "numTel2": {
+      "type": "integer"
+    },
+    "numTel3": {
+      "type": "integer"
+    },
+    "producto": {
+      "type": "json"
+    },
+    "colonia": {
+      "type": "string"
+    }
+  }
+}

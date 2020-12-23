@@ -1,0 +1,101 @@
+{
+  "kind": "collectionType",
+  "collectionName": "preventa_calidads",
+  "info": {
+    "name": "preventaCalidad",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "a": {
+      "type": "string"
+    },
+    "ciudad": {
+      "type": "string"
+    },
+    "codigoPostal": {
+      "type": "string"
+    },
+    "cruces": {
+      "type": "string"
+    },
+    "de": {
+      "type": "string"
+    },
+    "domicilio": {
+      "type": "string"
+    },
+    "estadoProv": {
+      "type": "string"
+    },
+    "fechaDeventa": {
+      "type": "string"
+    },
+    "fechaEntrega": {
+      "type": "string"
+    },
+    "formaDePago": {
+      "type": "string"
+    },
+    "idCliente": {
+      "type": "string"
+    },
+    "idMedio": {
+      "type": "string"
+    },
+    "nombreCliente": {
+      "type": "string"
+    },
+    "nota": {
+      "type": "string"
+    },
+    "tipo": {
+      "type": "string"
+    },
+    "tipoTel1": {
+      "type": "string"
+    },
+    "tipoTel2": {
+      "type": "string"
+    },
+    "vendedor": {
+      "type": "string"
+    },
+    "numTel1": {
+      "type": "string"
+    },
+    "numTel2": {
+      "type": "integer"
+    },
+    "numTel3": {
+      "type": "integer"
+    },
+    "producto": {
+      "type": "json"
+    },
+    "idPedido": {
+      "type": "string"
+    },
+    "colonia": {
+      "type": "string"
+    },
+    "subTotal": {
+      "type": "string"
+    },
+    "total": {
+      "type": "string"
+    },
+    "estatusPedido": {
+      "type": "string",
+      "default": "NUEVO"
+    },
+    "historial": {
+      "type": "text",
+      "default": "HISTORIAL"
+    }
+  }
+}

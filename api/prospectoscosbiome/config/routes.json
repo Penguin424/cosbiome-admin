@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/prospectoscosbiomes",
+      "handler": "prospectoscosbiome.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/prospectoscosbiomes/count",
+      "handler": "prospectoscosbiome.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/prospectoscosbiomes/:id",
+      "handler": "prospectoscosbiome.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/prospectoscosbiomes",
+      "handler": "prospectoscosbiome.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/prospectoscosbiomes/:id",
+      "handler": "prospectoscosbiome.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/prospectoscosbiomes/:id",
+      "handler": "prospectoscosbiome.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

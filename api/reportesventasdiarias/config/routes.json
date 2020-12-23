@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/reportesventasdiarias",
+      "handler": "reportesventasdiarias.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/reportesventasdiarias/count",
+      "handler": "reportesventasdiarias.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/reportesventasdiarias/:id",
+      "handler": "reportesventasdiarias.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/reportesventasdiarias",
+      "handler": "reportesventasdiarias.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/reportesventasdiarias/:id",
+      "handler": "reportesventasdiarias.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/reportesventasdiarias/:id",
+      "handler": "reportesventasdiarias.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

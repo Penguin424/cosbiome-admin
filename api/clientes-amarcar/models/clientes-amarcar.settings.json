@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "clientes_amarcars",
+  "info": {
+    "name": "clientes-amarcar"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "vendedor": {
+      "type": "string"
+    },
+    "clientes": {
+      "type": "json"
+    }
+  }
+}
