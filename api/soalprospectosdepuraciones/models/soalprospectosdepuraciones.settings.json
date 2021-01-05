@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "soalprospectosdepuraciones",
+  "info": {
+    "name": "soalprospectosdepuraciones"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "comentario": {
+      "type": "string"
+    },
+    "en": {
+      "type": "string"
+    },
+    "estacionMencion": {
+      "type": "string"
+    },
+    "medio": {
+      "type": "string"
+    },
+    "nombre": {
+      "type": "string"
+    },
+    "producto": {
+      "type": "string"
+    },
+    "telefono": {
+      "type": "string"
+    },
+    "calificadoPor": {
+      "type": "string"
+    },
+    "estatus": {
+      "type": "string"
+    }
+  }
+}

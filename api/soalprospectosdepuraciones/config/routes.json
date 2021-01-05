@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/soalprospectosdepuraciones",
+      "handler": "soalprospectosdepuraciones.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/soalprospectosdepuraciones/count",
+      "handler": "soalprospectosdepuraciones.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/soalprospectosdepuraciones/:id",
+      "handler": "soalprospectosdepuraciones.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/soalprospectosdepuraciones",
+      "handler": "soalprospectosdepuraciones.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/soalprospectosdepuraciones/:id",
+      "handler": "soalprospectosdepuraciones.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/soalprospectosdepuraciones/:id",
+      "handler": "soalprospectosdepuraciones.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
